@@ -661,7 +661,7 @@ export interface IConfig {
         edgeHigh?: number;
         edgeLow?: number;
         enableV2?: boolean;
-        ortSkipStride?: number;
+        inferenceStride?: number;
         segmentationHeight?: number;
         segmentationWidth?: number;
         targetFps?: number;
